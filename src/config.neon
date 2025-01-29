@@ -1,2 +1,2 @@
 services:
-	kravcik.clock: Kracik\Clock\Clock
+	kravcik.clock: Kravcik\Clock\Clock
