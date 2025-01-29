@@ -1,0 +1,30 @@
+{
+	"name": "kravcik/nette-clock",
+	"type": "library",
+	"description": "Test",
+	"keywords": [],
+	"homepage": "https://github.com/kravcik/nette-clock",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/kravcik/nette-clock/issues"
+	},
+
+	"require": {
+		"php": "^8.2"
+	},
+
+	"require-dev": {
+		"tracy/tracy": "^2.9",
+		"nette/tester": "^2.4",
+		"nette/caching": "^3.2",
+		"nette/robot-loader": "^4",
+		"modul-is/coding-standard": "^4",
+		"phpstan/phpstan": "^1"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Kravcik\\Clock\\": "src/"
+		}
+	}
+}

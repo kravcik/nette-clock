@@ -1,0 +1,2 @@
+services:
+	kravcik.clock: Kracik\Clock\Clock
